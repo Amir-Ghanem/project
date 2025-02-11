@@ -85,7 +85,7 @@ export function FooterEditor() {
     //   });
 
       try {
-        // await fetch('http://35.180.224.195:2711/api/FooterSection/Update', {
+        // await fetch('http://35.180.224.195:2712/api/FooterSection/Update', {
         //   method: 'POST',
         //   body: formData,
         // });
@@ -138,7 +138,7 @@ export function FooterEditor() {
                 {footer.logoUrl && (
                   <div className="mb-2">
                     <img
-                      src={`http://35.180.224.195:2711/${footer.logoUrl}`}
+                      src={`http://35.180.224.195:2712/${footer.logoUrl}`}
                       alt="Blog"
                       className="w-full h-auto rounded-lg border"
                     />

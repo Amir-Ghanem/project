@@ -98,7 +98,7 @@ const navigate = useNavigate();
               className="bg-white rounded-lg shadow-lg overflow-hidden"
             >
               <img
-                src={`http://35.180.224.195:2711/${blog.imageUrl ?? ""}`}
+                src={`http://35.180.224.195:2712/${blog.imageUrl ?? ""}`}
                 alt={blog.title}
                 className="w-full h-48 object-cover"
               />

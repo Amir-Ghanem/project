@@ -39,7 +39,7 @@ export const ServiceDetails = () => {
     const fetchServiceDetails = async () => {
       try {
         const response = await fetch(
-          `http://35.180.224.195:2711/api/Services/Get?Id=${id}`,
+          `http://35.180.224.195:2712/api/Services/Get?Id=${id}`,
           {
             method: 'GET',
             headers: {
@@ -95,7 +95,7 @@ export const ServiceDetails = () => {
         >
           <div className="relative h-96 overflow-hidden rounded-lg shadow-lg">
             <motion.img
-              src={`http://35.180.224.195:2711${service.imageUrl}`}
+              src={`http://35.180.224.195:2712${service.imageUrl}`}
               alt={service.title}
               className="w-full h-full object-cover"
               initial={{ opacity: 0 }}

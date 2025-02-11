@@ -198,7 +198,7 @@ export function AboutSection() {
           >
             <div className="absolute inset-0 bg-teal-500 transform translate-x-4 translate-y-4 -z-10 rounded-lg" />
             <img
-              src={`http://35.180.224.195:2711/${slide?.imageUrl ?? staticData.imageUrl}`} // Prepend base URL to the image URL
+              src={`http://35.180.224.195:2712/${slide?.imageUrl ?? staticData.imageUrl}`} // Prepend base URL to the image URL
               alt="About Us"
               className="rounded-lg shadow-xl"
             />

@@ -96,7 +96,7 @@ export const ServicesGrid = ({ type = "Home" }) => {
             >
               <div className="relative h-48 overflow-hidden">
                 <motion.img
-                  src={`http://35.180.224.195:2711/${slide.image ?? ''}`}
+                  src={`http://35.180.224.195:2712/${slide.image ?? ''}`}
                   alt={slide.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />

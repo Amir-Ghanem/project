@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { LoginRequest, LoginResponse } from '../types/auth';
 
-const API_URL = 'http://35.180.224.195:2711';
+const API_URL = 'http://35.180.224.195:2712';
 
 export const authApi = {
   login: async (credentials: LoginRequest): Promise<LoginResponse> => {

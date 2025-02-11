@@ -155,7 +155,7 @@ export function ProjectsEditor() {
     {slide.projectImagesURLs.map((url, index) => (
       <div key={index} className="relative">
         <img
-          src={`http://35.180.224.195:2711/${url}`}
+          src={`http://35.180.224.195:2712/${url}`}
           alt={`Slide ${index + 1}`}
           style={{ width: '150px', height: '100px' }}
           className="w-full h-auto rounded-lg border"

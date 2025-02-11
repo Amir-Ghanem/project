@@ -3,7 +3,7 @@ import { auth } from '../auth';
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: 'http://35.180.224.195:2711'
+  baseURL: 'http://35.180.224.195:2712'
   // baseURL: 'https://localhost:7022'
 });
 

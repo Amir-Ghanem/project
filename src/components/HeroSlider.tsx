@@ -96,7 +96,7 @@ export function HeroSlider() {
           <SwiperSlide key={index}>
             <div className="relative h-full">
               <img
-                src={`http://35.180.224.195:2711/${slide.image ?? ''}`} // Prepend base URL to the image URL
+                src={`http://35.180.224.195:2712/${slide.image ?? ''}`} // Prepend base URL to the image URL
                 alt={slide.title}
                 className="absolute inset-0 w-full h-full object-cover"
               />

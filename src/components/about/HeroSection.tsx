@@ -135,7 +135,7 @@ export const HeroSection = ({type = "Home"}) => {
             <div className="relative h-full">
               <img
                 
-                src={slide.image !== ''? `http://35.180.224.195:2711/${slide.image}` : '' }
+                src={slide.image !== ''? `http://35.180.224.195:2712/${slide.image}` : '' }
                 alt={slide.title}
                 className="absolute inset-0 w-full h-full object-cover"
               />

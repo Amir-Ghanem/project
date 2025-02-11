@@ -62,7 +62,7 @@ export const ProjectDetails = () => {
           {project.projectImagesURLs.map((image, index) => (
             <SwiperSlide key={index}>
               <img
-                src={`http://35.180.224.195:2711/${image}`}
+                src={`http://35.180.224.195:2712/${image}`}
                 alt={`Project ${index + 1}`}
                 className="w-full h-96 object-contain rounded-lg"
               />

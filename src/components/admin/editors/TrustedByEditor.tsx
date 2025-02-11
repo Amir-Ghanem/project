@@ -160,7 +160,7 @@ export function TrustedByEditor() {
                 <label className="block text-sm font-medium text-gray-700 mb-1">Image</label>
                 {partner.image && (
                   <img
-                    src={`http://35.180.224.195:2711/${partner.image}`}
+                    src={`http://35.180.224.195:2712/${partner.image}`}
                     alt="Partner"
                     style={{ width: '450px', height: '250px' }}
                     className="w-full h-auto rounded-lg border mb-2"

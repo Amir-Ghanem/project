@@ -114,7 +114,7 @@ export function MissionEditor() {
                 {mission.iconUrl && (
                   <div className="mb-2">
                     <img
-                      src={'http://35.180.224.195:2711/' + mission.iconUrl}
+                      src={'http://35.180.224.195:2712/' + mission.iconUrl}
                       alt="Icon"
                       className="w-full h-auto rounded-lg border"
                       style={{ width: '80px', height: '80px' }}

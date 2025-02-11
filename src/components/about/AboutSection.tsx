@@ -98,14 +98,14 @@ export function AboutSection() {
           >
             <div className="relative h-[300px]">
               <img
-                src={`http://35.180.224.195:2711/${displayData.imageUrl ?? ''}`}
+                src={`http://35.180.224.195:2712/${displayData.imageUrl ?? ''}`}
                 alt="Office"
                 className="rounded-lg object-cover w-full h-full"
               />
             </div>
             <div className="relative h-[300px] mt-12">
               <img
-                src={`http://35.180.224.195:2711/${displayData.secondImageUrl ?? ''}`}
+                src={`http://35.180.224.195:2712/${displayData.secondImageUrl ?? ''}`}
                 alt="Team"
                 className="rounded-lg object-cover w-full h-full"
               />

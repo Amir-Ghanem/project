@@ -129,7 +129,7 @@ export function ServicesEditor() {
     {slide.image && (
       <div className="mb-2">
         <img
-          src={'http://35.180.224.195:2711/'+slide.image}
+          src={'http://35.180.224.195:2712/'+slide.image}
           alt="Slide"
           style={{ width: '450px', height: '250px' }}
           className="w-full h-auto rounded-lg border"
@@ -153,7 +153,7 @@ export function ServicesEditor() {
     {slide.icons && (
       <div className="mb-2">
         <img
-          src={'http://35.180.224.195:2711/'+slide.icons}
+          src={'http://35.180.224.195:2712/'+slide.icons}
           alt="Slide"
           style={{ width: '450px', height: '250px' }}
           className="w-full h-auto rounded-lg border"

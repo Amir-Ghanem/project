@@ -93,7 +93,7 @@ export function TrustedBySection() {
               >
                 {company.image ? (
                   <img
-                  src={`http://35.180.224.195:2711/${company.image}`}
+                  src={`http://35.180.224.195:2712/${company.image}`}
                     alt={company.name}
                     className="w-32 h-32 mx-auto object-contain mb-6"
                   />

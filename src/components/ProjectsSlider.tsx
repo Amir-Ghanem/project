@@ -95,7 +95,7 @@ export const ProjectsSlider = ({type = "Home"}) => {
               >
                 <img
                   // src={slide.projectImagesURLs[0]}
-                 src={`http://35.180.224.195:2711/${slide.projectImagesURLs[0] ?? ''}`} 
+                 src={`http://35.180.224.195:2712/${slide.projectImagesURLs[0] ?? ''}`} 
                   alt={slide.title}
                   className="w-full h-[300px] object-cover rounded-lg"
                 />

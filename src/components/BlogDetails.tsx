@@ -72,7 +72,7 @@ export const BlogDetails = () => {
         >
           {/* Blog Image */}
           <img
-            src={`http://35.180.224.195:2711/${blog.imageUrl}`}
+            src={`http://35.180.224.195:2712/${blog.imageUrl}`}
             alt={blog.title}
             className="w-full h-96 object-contain"
           />

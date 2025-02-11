@@ -32,7 +32,7 @@ export function BlogsEditor() {
             isPublished: item.isPublished,
             summary: item.summary,
             author: item.author,
-            imageUrl: item.image,
+            imageUrl: item.images?.[0] ?? null,
             image: null,
             htmlContent : '<h1>Test</h1>',
             status: 'existing',
@@ -129,7 +129,7 @@ export function BlogsEditor() {
                 {blog.imageUrl && (
                   <div className="mb-2">
                     <img
-                      src={`http://35.180.224.195:2711/${blog.imageUrl}`}
+                      src={`http://35.180.224.195:2712/${blog.imageUrl}`}
                       alt="Blog"
                       className="w-full h-auto rounded-lg border"
                     />

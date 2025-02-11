@@ -79,7 +79,7 @@ const navigate = useNavigate();
 
 <img
              
-             src={`http://35.180.224.195:2711/${career!.cvurl}`}
+             src={`http://35.180.224.195:2712/${career!.cvurl}`}
                alt="CV"
              className="rounded-lg shadow-lg"
            />
@@ -96,7 +96,7 @@ const navigate = useNavigate();
         <div className="grid grid-cols-2 gap-4 mt-2">
         <img
              
-             src={`http://35.180.224.195:2711/${career!.portfolioURL}`}
+             src={`http://35.180.224.195:2712/${career!.portfolioURL}`}
                 alt="Portfolio Image"
              className="rounded-lg shadow-lg"
            />

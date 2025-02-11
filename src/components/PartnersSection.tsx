@@ -175,7 +175,7 @@ export function PartnersSection() {
                 >
                   {partner.image ? (
                     <img
-                      src={`http://35.180.224.195:2711/${partner.image ?? ''}`}
+                      src={`http://35.180.224.195:2712/${partner.image ?? ''}`}
                       alt={partner.name}
                       className="w-16 h-16 rounded-full object-cover mb-2"
                     />

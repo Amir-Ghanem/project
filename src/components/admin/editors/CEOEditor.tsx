@@ -147,7 +147,7 @@ export function CEOEditor() {
                 {ceo.image && (
                   <div className="mb-2">
                     <img
-                      src={`http://35.180.224.195:2711/${ceo.image}`}
+                      src={`http://35.180.224.195:2712/${ceo.image}`}
                       alt="Blog"
                       className="w-full h-auto rounded-lg border"
                       style={{width:'250px',height:'400px'}}

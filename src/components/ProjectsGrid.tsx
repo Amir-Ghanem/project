@@ -91,7 +91,7 @@ export const ProjectsGrid = () => {
                 className="w-full md:w-1/2 mb-8 md:mb-0 p-2 border-4 border-primary rounded-lg" // Added border styling
             >
                 <img
-                        src={`http://35.180.224.195:2711/${firstProject.projectImagesURLs[0]}`}
+                        src={`http://35.180.224.195:2712/${firstProject.projectImagesURLs[0]}`}
                         alt={firstProject.title}
                 className="w-full h-auto rounded-lg" // Ensure the image itself is rounded
                 onClick={() => navigate(`/projects/${firstProject.id}`)}

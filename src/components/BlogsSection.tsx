@@ -64,7 +64,7 @@ export const  BlogsSection = ({type = "Home"}) => {
             isPublished: item.isPublished,
             summary: item.summary,
             author: item.author,
-            imageUrl: item.image,
+            imageUrl: item.images[0] ?? '',
             image: null,
             htmlContent: '<h1>Test</h1>',
             status: 'existing',
@@ -111,7 +111,7 @@ export const  BlogsSection = ({type = "Home"}) => {
                 className="bg-white rounded-lg shadow-lg overflow-hidden"
               >
                 <img
-                   src={`http://35.180.224.195:2711/${blog.imageUrl ?? ''}`}
+                   src={`http://35.180.224.195:2712/${blog.imageUrl ?? ''}`}
                   alt={blog.title}
                   className="w-full h-48 object-cover"
                 />

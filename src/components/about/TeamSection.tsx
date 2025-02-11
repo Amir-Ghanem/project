@@ -136,7 +136,7 @@ export function TeamSection() {
             >
               <div className="relative h-[400px] rounded-2xl overflow-hidden">
                 <img
-                  src={`http://35.180.224.195:2711/${member.imageUrl}`} 
+                  src={`http://35.180.224.195:2712/${member.imageUrl}`} 
                   alt={member.name}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />

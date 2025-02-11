@@ -133,7 +133,7 @@ export function TeamMemberEditor() {
                 {member.imageUrl && (
                   <div className="mb-2">
                     <img
-                      src={`http://35.180.224.195:2711/${member.imageUrl}`}
+                      src={`http://35.180.224.195:2712/${member.imageUrl}`}
                       alt="Profile"
                       className="w-full h-auto rounded-lg border"
                       style={{ width: '300px', height: '200px' }}
