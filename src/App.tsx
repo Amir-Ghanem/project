@@ -129,7 +129,7 @@ export default function App() {
               <Footer />
             </>
           }
-        />
+        />  
 
         {/* Auth Routes */}
         <Route path="/admin/login" element={<LoginPage />} />
