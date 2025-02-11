@@ -7,7 +7,7 @@ export interface NewsItem {
     isPublished: boolean;
     summary: string;
     author: string;
-    images: string[];
+    image: string;
     htmlContent:string;
   }
   

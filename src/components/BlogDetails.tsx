@@ -9,7 +9,7 @@ interface BlogData {
   content: string;
   date: string;
   author: string;
-  imageUrl: string[];
+  imageUrl: string;
 }
 
 export const BlogDetails = () => {
@@ -33,7 +33,7 @@ export const BlogDetails = () => {
             content: response.news.content,
             date: response.news.publishDate,
             author: response.news.author,
-            imageUrl: response.news.images,
+            imageUrl: response.news.image,
           });
         } else {
           setError("Failed to fetch blog details.");

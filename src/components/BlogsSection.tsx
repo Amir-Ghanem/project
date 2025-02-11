@@ -54,6 +54,8 @@ export const  BlogsSection = ({type = "Home"}) => {
   useEffect(() => {
     const fetchBlogs = async () => {
       const response = await blogsApi.getAll();
+      console.log({response});
+      
       if (response.isSuccess && response.newsList?.items) {
         setBlogs(
           response.newsList.items.map(item => ({
@@ -64,7 +66,7 @@ export const  BlogsSection = ({type = "Home"}) => {
             isPublished: item.isPublished,
             summary: item.summary,
             author: item.author,
-            imageUrl: item.images[0] ?? '',
+            imageUrl: item.image ?? '',
             image: null,
             htmlContent: '<h1>Test</h1>',
             status: 'existing',
